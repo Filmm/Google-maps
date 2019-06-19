@@ -1,0 +1,113 @@
+body{
+    overflow: hidden;
+}
+.container-fluid{
+    padding-right: 0;
+    padding-left: 0;
+}
+
+Input{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #BDC3C7;
+}
+.listview, .mapview{
+    padding:0;
+     overflow: hidden;
+}
+
+.listview{
+    overflow-y: scroll; 
+    height: 600px;
+}
+
+.row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.shop_box:hover {
+    background: #D4E6F1;
+}
+hr{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.btn-sort{
+    font-family: Roboto,sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 12px;
+    padding: 1.5px;
+    border-radius: 0px;
+}
+
+.active{
+    font-family: Roboto,sans-serif;
+    background: pink;
+    color: #000;
+    font-size: 12px;
+    padding: 1.5px;
+    border-radius: 0px;
+}
+
+.Name_eng{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.Name_thai{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.Distance_eng{
+    font-family: Roboto,sans-serif;
+    float: right;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.Distance_thai{
+    font-family: Roboto,sans-serif;
+    float: right;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #000000;
+}
+
+.location{
+    font-family: Roboto,sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #707B7C;
+}
+
+.gm-style .gm-style-iw-c {
+    text-align: center;
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 5px;
+}
